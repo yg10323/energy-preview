@@ -12,8 +12,6 @@ type Props = {
 
 const LayoutContent = (props: Props) => {
   const { title, cornerVisible, cornerPosition, style } = props
-  console.log('cornerPosition', cornerPosition);
-
   return (
     <div className='layout-content' style={style}>
       <div className="layout-content__title">{title}</div>

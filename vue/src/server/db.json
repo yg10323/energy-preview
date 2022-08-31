@@ -1,0 +1,1967 @@
+{
+  "alertInfo": {
+    "IsSuccessful": true,
+    "Data": [
+      {
+        "ALARM_TASK_ID": "b6bf4f83-ba24-6e98-0d8b-f1a62abb2702",
+        "IS_HANDLE": false,
+        "HANDLE_TIME": null,
+        "APPLIANCE_ID": "df5fd50e-3fb8-7aa7-4a8a-5ad7ad778429",
+        "EQUIPMENT_ID": null,
+        "ALARM_HANGLE_ID": null,
+        "DESCRIBE": "变量：总配J512柜电能表心跳点，触发时间：2022-08-22 01:47:13，触发值1；",
+        "Nav_AlarmTask": {
+          "NAME": "德纳J512总表",
+          "LEVEL": 0,
+          "ALARM_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "COUNT": 0,
+          "ALARM_COUNT": 0,
+          "ALARM_STARTTIME": null,
+          "ALARM_ENDTIME": null,
+          "INTERVAL": 0,
+          "IS_NOTICE": false,
+          "NEXT_VERIFY_TIME": "2022-08-22 13:51:37",
+          "ID": "b6bf4f83-ba24-6e98-0d8b-f1a62abb2702",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "Nav_Appliance": {
+          "NAME": "油一工段天然气仪表",
+          "APPLIANCE_TYPE_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "GRADE_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_TYPE": 0,
+          "ENERGY_USE_ID": "00000000-0000-0000-0000-000000000000",
+          "IS_REPORT": false,
+          "CALCULATE_ENERGY": false,
+          "MAX": 0,
+          "MUTUAL_RATIO": 0,
+          "MIN": 0,
+          "CORRECTION": 0,
+          "ENERGY_CLASS_ID": "00000000-0000-0000-0000-000000000000",
+          "START_TIME": null,
+          "IS_VIRTUAL": false,
+          "APP_STATUS": 0,
+          "OFFLINE_TIME": null,
+          "DEPARTMENT_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_GRADE": 0,
+          "MUTUAL_INDUCTANCE_RADIO": 0,
+          "RATED_CAPACITY": 0,
+          "RATED_CURRENT": 0,
+          "INTFUSING_CURRENT": 0,
+          "IS_SUM_APPLIANCE": false,
+          "SUB_DEPARTMENT_ID": null,
+          "NUM": 0,
+          "ID": "df5fd50e-3fb8-7aa7-4a8a-5ad7ad778429",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "NEXT_ALARM_HOUR": 0,
+        "IS_ONEKEY_HANDLE": false,
+        "ID": "c28ac4bc-8fc8-4848-8e1b-2e7ae6b148d5",
+        "IS_DELETED": false,
+        "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+        "ENTITY_ORG_TPYE": 0,
+        "FORM_ID": null,
+        "FLOW_STATUS": 0,
+        "FLOW_SEND_STATUS": 0,
+        "FLOW_ID": null,
+        "CREATE_TIME": "2022-08-22 13:49:48",
+        "MODIFY_TIME": "2022-08-22 13:51:37",
+        "CREATER_ID": null,
+        "MODIFIER_ID": null
+      },
+      {
+        "ALARM_TASK_ID": "60f49f93-3563-aa25-bf77-cd0b773624be",
+        "IS_HANDLE": false,
+        "HANDLE_TIME": null,
+        "APPLIANCE_ID": "8a972f42-72cc-695d-09fd-879e389b82b9",
+        "EQUIPMENT_ID": null,
+        "ALARM_HANGLE_ID": null,
+        "DESCRIBE": "变量：冲焊3#变压器负荷率，触发时间：2022-08-22 01:47:13，触发值4.4；",
+        "Nav_AlarmTask": {
+          "NAME": "风冷",
+          "LEVEL": 0,
+          "ALARM_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "COUNT": 0,
+          "ALARM_COUNT": 0,
+          "ALARM_STARTTIME": null,
+          "ALARM_ENDTIME": null,
+          "INTERVAL": 0,
+          "IS_NOTICE": false,
+          "NEXT_VERIFY_TIME": "2022-08-22 13:51:37",
+          "ID": "60f49f93-3563-aa25-bf77-cd0b773624be",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "Nav_Appliance": {
+          "NAME": "机动楼旁水表井内水表",
+          "APPLIANCE_TYPE_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "GRADE_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_TYPE": 0,
+          "ENERGY_USE_ID": "00000000-0000-0000-0000-000000000000",
+          "IS_REPORT": false,
+          "CALCULATE_ENERGY": false,
+          "MAX": 0,
+          "MUTUAL_RATIO": 0,
+          "MIN": 0,
+          "CORRECTION": 0,
+          "ENERGY_CLASS_ID": "00000000-0000-0000-0000-000000000000",
+          "START_TIME": null,
+          "IS_VIRTUAL": false,
+          "APP_STATUS": 0,
+          "OFFLINE_TIME": null,
+          "DEPARTMENT_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_GRADE": 0,
+          "MUTUAL_INDUCTANCE_RADIO": 0,
+          "RATED_CAPACITY": 0,
+          "RATED_CURRENT": 0,
+          "INTFUSING_CURRENT": 0,
+          "IS_SUM_APPLIANCE": false,
+          "SUB_DEPARTMENT_ID": null,
+          "NUM": 0,
+          "ID": "8a972f42-72cc-695d-09fd-879e389b82b9",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "NEXT_ALARM_HOUR": 0,
+        "IS_ONEKEY_HANDLE": false,
+        "ID": "fcb0a539-3f61-499c-aa62-905415975a7c",
+        "IS_DELETED": false,
+        "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+        "ENTITY_ORG_TPYE": 0,
+        "FORM_ID": null,
+        "FLOW_STATUS": 0,
+        "FLOW_SEND_STATUS": 0,
+        "FLOW_ID": null,
+        "CREATE_TIME": "2022-08-22 13:49:48",
+        "MODIFY_TIME": "2022-08-22 13:51:37",
+        "CREATER_ID": null,
+        "MODIFIER_ID": null
+      },
+      {
+        "ALARM_TASK_ID": "33db1fa3-3229-f409-c719-9918d64600b4",
+        "IS_HANDLE": false,
+        "HANDLE_TIME": null,
+        "APPLIANCE_ID": "e9181b64-3e89-4079-2ffd-253d3825b4bb",
+        "EQUIPMENT_ID": null,
+        "ALARM_HANGLE_ID": null,
+        "DESCRIBE": "变量：大修天然气压力，触发时间：2022-08-22 01:28:03，触发值187.421；",
+        "Nav_AlarmTask": {
+          "NAME": "大修天然气测试",
+          "LEVEL": 0,
+          "ALARM_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "COUNT": 0,
+          "ALARM_COUNT": 0,
+          "ALARM_STARTTIME": null,
+          "ALARM_ENDTIME": null,
+          "INTERVAL": 0,
+          "IS_NOTICE": false,
+          "NEXT_VERIFY_TIME": "2022-08-22 13:51:37",
+          "ID": "33db1fa3-3229-f409-c719-9918d64600b4",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "Nav_Appliance": {
+          "NAME": "大修天然气仪表",
+          "APPLIANCE_TYPE_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "GRADE_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_TYPE": 0,
+          "ENERGY_USE_ID": "00000000-0000-0000-0000-000000000000",
+          "IS_REPORT": false,
+          "CALCULATE_ENERGY": false,
+          "MAX": 0,
+          "MUTUAL_RATIO": 0,
+          "MIN": 0,
+          "CORRECTION": 0,
+          "ENERGY_CLASS_ID": "00000000-0000-0000-0000-000000000000",
+          "START_TIME": null,
+          "IS_VIRTUAL": false,
+          "APP_STATUS": 0,
+          "OFFLINE_TIME": null,
+          "DEPARTMENT_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_GRADE": 0,
+          "MUTUAL_INDUCTANCE_RADIO": 0,
+          "RATED_CAPACITY": 0,
+          "RATED_CURRENT": 0,
+          "INTFUSING_CURRENT": 0,
+          "IS_SUM_APPLIANCE": false,
+          "SUB_DEPARTMENT_ID": null,
+          "NUM": 0,
+          "ID": "e9181b64-3e89-4079-2ffd-253d3825b4bb",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "NEXT_ALARM_HOUR": 0,
+        "IS_ONEKEY_HANDLE": false,
+        "ID": "05568f1a-43fa-4a56-896c-426a17835583",
+        "IS_DELETED": false,
+        "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+        "ENTITY_ORG_TPYE": 0,
+        "FORM_ID": null,
+        "FLOW_STATUS": 0,
+        "FLOW_SEND_STATUS": 0,
+        "FLOW_ID": null,
+        "CREATE_TIME": "2022-08-22 13:37:47",
+        "MODIFY_TIME": "2022-08-22 13:51:37",
+        "CREATER_ID": null,
+        "MODIFIER_ID": null
+      },
+      {
+        "ALARM_TASK_ID": "24fb938b-a134-9254-3dc1-2d4fa1e762b1",
+        "IS_HANDLE": false,
+        "HANDLE_TIME": null,
+        "APPLIANCE_ID": "e9181b64-3e89-4079-2ffd-253d3825b4bb",
+        "EQUIPMENT_ID": null,
+        "ALARM_HANGLE_ID": null,
+        "DESCRIBE": "变量：大修天然气指针表压力，触发时间：2022-08-22 01:25:00，触发值0.086；",
+        "Nav_AlarmTask": {
+          "NAME": "天然气指针压力",
+          "LEVEL": 0,
+          "ALARM_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "COUNT": 0,
+          "ALARM_COUNT": 0,
+          "ALARM_STARTTIME": null,
+          "ALARM_ENDTIME": null,
+          "INTERVAL": 0,
+          "IS_NOTICE": false,
+          "NEXT_VERIFY_TIME": "2022-08-22 13:51:37",
+          "ID": "24fb938b-a134-9254-3dc1-2d4fa1e762b1",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "Nav_Appliance": {
+          "NAME": "大修天然气仪表",
+          "APPLIANCE_TYPE_ID": "00000000-0000-0000-0000-000000000000",
+          "ENABLE_STATUS": 0,
+          "GRADE_ENUM_ITEM_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_TYPE": 0,
+          "ENERGY_USE_ID": "00000000-0000-0000-0000-000000000000",
+          "IS_REPORT": false,
+          "CALCULATE_ENERGY": false,
+          "MAX": 0,
+          "MUTUAL_RATIO": 0,
+          "MIN": 0,
+          "CORRECTION": 0,
+          "ENERGY_CLASS_ID": "00000000-0000-0000-0000-000000000000",
+          "START_TIME": null,
+          "IS_VIRTUAL": false,
+          "APP_STATUS": 0,
+          "OFFLINE_TIME": null,
+          "DEPARTMENT_ID": "00000000-0000-0000-0000-000000000000",
+          "APPLIANCE_GRADE": 0,
+          "MUTUAL_INDUCTANCE_RADIO": 0,
+          "RATED_CAPACITY": 0,
+          "RATED_CURRENT": 0,
+          "INTFUSING_CURRENT": 0,
+          "IS_SUM_APPLIANCE": false,
+          "SUB_DEPARTMENT_ID": null,
+          "NUM": 0,
+          "ID": "e9181b64-3e89-4079-2ffd-253d3825b4bb",
+          "IS_DELETED": false,
+          "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+          "ENTITY_ORG_TPYE": 0,
+          "FORM_ID": null,
+          "FLOW_STATUS": 0,
+          "FLOW_SEND_STATUS": 0,
+          "FLOW_ID": null,
+          "CREATE_TIME": "2022-08-22 13:51:37",
+          "MODIFY_TIME": "2022-08-22 13:51:37",
+          "CREATER_ID": null,
+          "MODIFIER_ID": null
+        },
+        "NEXT_ALARM_HOUR": 0,
+        "IS_ONEKEY_HANDLE": false,
+        "ID": "bf4d1a5e-516b-4c29-bc03-91530ba515ce",
+        "IS_DELETED": false,
+        "ORG_ID": "b043b28b-bbc3-c452-6052-4fba1457abfa",
+        "ENTITY_ORG_TPYE": 0,
+        "FORM_ID": null,
+        "FLOW_STATUS": 0,
+        "FLOW_SEND_STATUS": 0,
+        "FLOW_ID": null,
+        "CREATE_TIME": "2022-08-22 13:31:47",
+        "MODIFY_TIME": "2022-08-22 13:51:37",
+        "CREATER_ID": null,
+        "MODIFIER_ID": null
+      }
+    ],
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "applicationInfo": {
+    "IsSuccessful": true,
+    "Data": [
+      {
+        "Name": "电",
+        "Code": "Electric",
+        "Total": 163,
+        "Online": 109,
+        "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060416516408.png"
+      },
+      {
+        "Name": "水",
+        "Code": "Water",
+        "Total": 33,
+        "Online": 32,
+        "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060506310898.png"
+      },
+      {
+        "Name": "气",
+        "Code": "Gas",
+        "Total": 6,
+        "Online": 6,
+        "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060532656718.png"
+      }
+    ],
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "baseConfig": {
+    "IsSuccessful": true,
+    "Data": {
+      "Title": "智慧能源管理平台"
+    },
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "energyMonitor": {
+    "IsSuccessful": true,
+    "Data": [
+      {
+        "Name": "电",
+        "Code": "Electric",
+        "Unit": "KWh",
+        "EnergyList": [
+          {
+            "Time": "2022-08-21 14:00",
+            "Value": 2880
+          },
+          {
+            "Time": "2022-08-21 15:00",
+            "Value": 3120
+          },
+          {
+            "Time": "2022-08-21 16:00",
+            "Value": 2520
+          },
+          {
+            "Time": "2022-08-21 17:00",
+            "Value": 2760
+          },
+          {
+            "Time": "2022-08-21 18:00",
+            "Value": 2280
+          },
+          {
+            "Time": "2022-08-21 19:00",
+            "Value": 1800
+          },
+          {
+            "Time": "2022-08-21 20:00",
+            "Value": 2040
+          },
+          {
+            "Time": "2022-08-21 21:00",
+            "Value": 1800
+          },
+          {
+            "Time": "2022-08-21 22:00",
+            "Value": 2400
+          },
+          {
+            "Time": "2022-08-21 23:00",
+            "Value": 2040
+          },
+          {
+            "Time": "2022-08-22 00:00",
+            "Value": 1920
+          },
+          {
+            "Time": "2022-08-22 01:00",
+            "Value": 1920
+          },
+          {
+            "Time": "2022-08-22 02:00",
+            "Value": 2040
+          },
+          {
+            "Time": "2022-08-22 03:00",
+            "Value": 1800
+          },
+          {
+            "Time": "2022-08-22 04:00",
+            "Value": 2280
+          },
+          {
+            "Time": "2022-08-22 05:00",
+            "Value": 2040
+          },
+          {
+            "Time": "2022-08-22 06:00",
+            "Value": 1920
+          },
+          {
+            "Time": "2022-08-22 07:00",
+            "Value": 2040
+          },
+          {
+            "Time": "2022-08-22 08:00",
+            "Value": 3000
+          },
+          {
+            "Time": "2022-08-22 09:00",
+            "Value": 3480
+          },
+          {
+            "Time": "2022-08-22 10:00",
+            "Value": 3120
+          },
+          {
+            "Time": "2022-08-22 11:00",
+            "Value": 3480
+          },
+          {
+            "Time": "2022-08-22 12:00",
+            "Value": 2760
+          },
+          {
+            "Time": "2022-08-22 13:00",
+            "Value": 1320
+          }
+        ]
+      },
+      {
+        "Name": "水",
+        "Code": "Water",
+        "Unit": "t",
+        "EnergyList": [
+          {
+            "Time": "2022-08-21 14:00",
+            "Value": 840
+          },
+          {
+            "Time": "2022-08-21 15:00",
+            "Value": 960
+          },
+          {
+            "Time": "2022-08-21 16:00",
+            "Value": 720
+          },
+          {
+            "Time": "2022-08-21 17:00",
+            "Value": 720
+          },
+          {
+            "Time": "2022-08-21 18:00",
+            "Value": 480
+          },
+          {
+            "Time": "2022-08-21 19:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-21 20:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-21 21:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-21 22:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-21 23:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-22 00:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-22 01:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-22 02:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-22 03:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-22 04:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-22 05:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-22 06:00",
+            "Value": 120
+          },
+          {
+            "Time": "2022-08-22 07:00",
+            "Value": 240
+          },
+          {
+            "Time": "2022-08-22 08:00",
+            "Value": 840
+          },
+          {
+            "Time": "2022-08-22 09:00",
+            "Value": 1080
+          },
+          {
+            "Time": "2022-08-22 10:00",
+            "Value": 840
+          },
+          {
+            "Time": "2022-08-22 11:00",
+            "Value": 960
+          },
+          {
+            "Time": "2022-08-22 12:00",
+            "Value": 720
+          },
+          {
+            "Time": "2022-08-22 13:00",
+            "Value": 240
+          }
+        ]
+      },
+      {
+        "Name": "气",
+        "Code": "Gas",
+        "Unit": "m3",
+        "EnergyList": [
+          {
+            "Time": "2022-08-21 14:00",
+            "Value": 30.54
+          },
+          {
+            "Time": "2022-08-21 15:00",
+            "Value": 25.42
+          },
+          {
+            "Time": "2022-08-21 16:00",
+            "Value": 28.75
+          },
+          {
+            "Time": "2022-08-21 17:00",
+            "Value": 23.95
+          },
+          {
+            "Time": "2022-08-21 18:00",
+            "Value": 14.97
+          },
+          {
+            "Time": "2022-08-21 19:00",
+            "Value": 12.41
+          },
+          {
+            "Time": "2022-08-21 20:00",
+            "Value": 14.78
+          },
+          {
+            "Time": "2022-08-21 21:00",
+            "Value": 15.82
+          },
+          {
+            "Time": "2022-08-21 22:00",
+            "Value": 12.01
+          },
+          {
+            "Time": "2022-08-21 23:00",
+            "Value": 9.74
+          },
+          {
+            "Time": "2022-08-22 00:00",
+            "Value": 11.15
+          },
+          {
+            "Time": "2022-08-22 01:00",
+            "Value": 13.51
+          },
+          {
+            "Time": "2022-08-22 02:00",
+            "Value": 15.34
+          },
+          {
+            "Time": "2022-08-22 03:00",
+            "Value": 12.1
+          },
+          {
+            "Time": "2022-08-22 04:00",
+            "Value": 11.28
+          },
+          {
+            "Time": "2022-08-22 05:00",
+            "Value": 12.74
+          },
+          {
+            "Time": "2022-08-22 06:00",
+            "Value": 11.79
+          },
+          {
+            "Time": "2022-08-22 07:00",
+            "Value": 13.92
+          },
+          {
+            "Time": "2022-08-22 08:00",
+            "Value": 43.49
+          },
+          {
+            "Time": "2022-08-22 09:00",
+            "Value": 39.9
+          },
+          {
+            "Time": "2022-08-22 10:00",
+            "Value": 13.43
+          },
+          {
+            "Time": "2022-08-22 11:00",
+            "Value": 18.18
+          },
+          {
+            "Time": "2022-08-22 12:00",
+            "Value": 13.63
+          },
+          {
+            "Time": "2022-08-22 13:00",
+            "Value": 8.93
+          }
+        ]
+      }
+    ],
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "monthData": {
+    "IsSuccessful": true,
+    "Data": {
+      "chartDataModel": {
+        "XAxis": [
+          {
+            "Data": [
+              "2022-07-23",
+              "2022-07-24",
+              "2022-07-25",
+              "2022-07-26",
+              "2022-07-27",
+              "2022-07-28",
+              "2022-07-29",
+              "2022-07-30",
+              "2022-07-31",
+              "2022-08-01",
+              "2022-08-02",
+              "2022-08-03",
+              "2022-08-04",
+              "2022-08-05",
+              "2022-08-06",
+              "2022-08-07",
+              "2022-08-08",
+              "2022-08-09",
+              "2022-08-10",
+              "2022-08-11",
+              "2022-08-12",
+              "2022-08-13",
+              "2022-08-14",
+              "2022-08-15",
+              "2022-08-16",
+              "2022-08-17",
+              "2022-08-18",
+              "2022-08-19",
+              "2022-08-20",
+              "2022-08-21",
+              "2022-08-22"
+            ]
+          }
+        ],
+        "YAxis": [
+          {
+            "Name": "KWh",
+            "Max": 0,
+            "Min": 0,
+            "IsInverse": false
+          },
+          {
+            "Name": "%",
+            "Max": 100,
+            "Min": 0,
+            "IsInverse": false
+          }
+        ],
+        "Data": [
+          {
+            "Name": "尖峰",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 360,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1440,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4440,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 5520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2760,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3720,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2760,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3000,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2400,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "高峰",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 4320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2160,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1800,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 5880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17400,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 23880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26160,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 21720,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 8640,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 7560,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 15120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 37440,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 34320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 16080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 7680,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 8040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 8760,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 11520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 11280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "平电",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 5040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4560,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3360,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2400,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1800,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 7920,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 30960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 32880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26160,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2640,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 10680,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 47520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 37200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 15960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 16200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9720,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 10680,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 16200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 13560,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 16320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14400,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "谷电",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 6840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3360,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1920,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2400,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 1920,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2160,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 2040,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 18960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 13920,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17280,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 15480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 8880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 8640,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9000,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 22080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 28320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 13560,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9960,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9720,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9480,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "高峰占比",
+            "ChartType": 0,
+            "YAxisIndex": 1,
+            "XAxisIndex": 0,
+            "Type": "line",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 25.17,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26.55,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 25.93,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26.87,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 25.42,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26.56,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 29.69,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 33.33,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 34.03,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 28.83,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 32.73,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 32.39,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 25.14,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17.52,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 18.53,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 22.14,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 23.56,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20.94,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 19.53,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 22,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14.13,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17.09,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 17.42,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 19.33,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20.16,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20.65,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 21.02,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 23.24,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 18.58,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          }
+        ],
+        "Radar": []
+      }
+    },
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "procedureDosage": {
+    "IsSuccessful": true,
+    "Data": {
+      "Title": "节点用电量本月排行榜",
+      "dataSource": [
+        {
+          "Ranking": 1,
+          "Name": "办公楼",
+          "Value": "63910.19",
+          "Ratio": "0.50"
+        },
+        {
+          "Ranking": 2,
+          "Name": "污水处理站",
+          "Value": "34858.00",
+          "Ratio": "0.27"
+        },
+        {
+          "Ranking": 3,
+          "Name": "直淬炉",
+          "Value": "15491.00",
+          "Ratio": "0.12"
+        },
+        {
+          "Ranking": 4,
+          "Name": "减速器老厂房",
+          "Value": "9676.03",
+          "Ratio": "0.08"
+        },
+        {
+          "Ranking": 5,
+          "Name": "爱协林炉厂房",
+          "Value": "4820.00",
+          "Ratio": "0.04"
+        },
+        {
+          "Ranking": 6,
+          "Name": "部装",
+          "Value": "92.70",
+          "Ratio": "0.00"
+        },
+        {
+          "Ranking": 7,
+          "Name": "桥壳",
+          "Value": "28.86",
+          "Ratio": "0.00"
+        },
+        {
+          "Ranking": 8,
+          "Name": "机动楼",
+          "Value": "12.00",
+          "Ratio": "0.00"
+        },
+        {
+          "Ranking": 9,
+          "Name": "轴承库",
+          "Value": "12.00",
+          "Ratio": "0.00"
+        },
+        {
+          "Ranking": 10,
+          "Name": "空压站",
+          "Value": "2.21",
+          "Ratio": "0.00"
+        },
+        {
+          "Ranking": 11,
+          "Name": "其他",
+          "Value": "0.00",
+          "Ratio": "0.00"
+        }
+      ],
+      "columns": [
+        {
+          "title": "排名",
+          "key": "Ranking",
+          "width": 0,
+          "dataIndex": "Ranking"
+        },
+        {
+          "title": "节点名称",
+          "key": "Name",
+          "width": 0,
+          "dataIndex": "Name"
+        },
+        {
+          "title": "用量(kwh)",
+          "key": "Value",
+          "width": 0,
+          "dataIndex": "Value"
+        },
+        {
+          "title": "占比",
+          "key": "Ratio",
+          "width": 0,
+          "dataIndex": "Ratio"
+        }
+      ]
+    },
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "procedureEngery": {
+    "IsSuccessful": true,
+    "Title": "节点能耗本月排行榜",
+    "Data": [
+      {
+        "Name": "办公楼",
+        "Code": "55",
+        "Total": "35944.62",
+        "iTotal": 35944.6162538409,
+        "Percent": 48.8
+      },
+      {
+        "Name": "污水处理站",
+        "Code": "58",
+        "Total": "21223.83",
+        "iTotal": 21223.82843422831,
+        "Percent": 28.81
+      },
+      {
+        "Name": "直淬炉",
+        "Code": "13",
+        "Total": "8905.47",
+        "iTotal": 8905.4688814,
+        "Percent": 12.09
+      },
+      {
+        "Name": "减速器老厂房",
+        "Code": "63",
+        "Total": "4710.65",
+        "iTotal": 4710.65435489381,
+        "Percent": 6.39
+      },
+      {
+        "Name": "爱协林炉厂房",
+        "Code": "22",
+        "Total": "2814.49",
+        "iTotal": 2814.4857915714,
+        "Percent": 3.82
+      },
+      {
+        "Name": "其他",
+        "Code": "-1",
+        "Total": "63.55",
+        "iTotal": 63.554341915181524,
+        "Percent": 0.09
+      }
+    ],
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "summaryInfo": {
+    "IsSuccessful": true,
+    "Data": {
+      "Cons": {
+        "MonthEnergy": 693239.71548,
+        "YearOnYear": 2399462.05,
+        "MonthOnMonth": 298859.55,
+        "Title": "月总能耗",
+        "Unit": "tce"
+      },
+      "Carbon": {
+        "MonthEnergy": 4830.5664,
+        "YearOnYear": 100,
+        "MonthOnMonth": 3.56,
+        "Title": "月总碳排放",
+        "Unit": "tCO2e"
+      },
+      "EnergyDosageSummary": [
+        {
+          "Title": "月总用电量",
+          "Name": "电",
+          "Code": "Electric",
+          "Unit": "万KWh",
+          "MonthEnergyDosage": 117.372,
+          "DayEnergyDosage": 11160,
+          "MonthEnergyConsu": 693205.76338,
+          "DayEnergyConsu": 7971.588,
+          "YearOnYearDosage": 25493.55,
+          "MonthOnMonthDosage": -8.69
+        },
+        {
+          "Title": "月总用水量",
+          "Name": "水",
+          "Code": "Water",
+          "Unit": "万t",
+          "MonthEnergyDosage": 48.83039,
+          "DayEnergyDosage": 7186.49985,
+          "MonthEnergyConsu": 32.60348,
+          "DayEnergyConsu": 0.40244,
+          "YearOnYearDosage": 4336.3,
+          "MonthOnMonthDosage": -25.82
+        },
+        {
+          "Title": "月总用气量",
+          "Name": "气",
+          "Code": "Gas",
+          "Unit": "m3",
+          "MonthEnergyDosage": 1014,
+          "DayEnergyDosage": 0,
+          "MonthEnergyConsu": 1.34862,
+          "DayEnergyConsu": 0,
+          "YearOnYearDosage": -83.46,
+          "MonthOnMonthDosage": -41.58
+        }
+      ]
+    },
+    "TotalCount": 0,
+    "MessageType": 0
+  }
+}

@@ -1,0 +1,74 @@
+@home: route-home;
+
+.@{home} {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: url('../../assets/full-bg.jpg') center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+  &__left {
+    position: relative;
+    display: inline-block;
+    width: 4.9rem;
+    height: 100%;
+    vertical-align: middle
+  }
+
+  &__center {
+    display: inline-block;
+    height: 100%;
+    width: 8.51rem;
+    margin: 0 .15rem;
+    text-align: center;
+    vertical-align: middle;
+
+    &--title {
+      display: inline-block;
+      width: 7.96rem;
+      height: .83rem;
+      background: url('../../assets/title-bg.png') 50% no-repeat;
+      background-size: contain;
+
+      p {
+        font-size: .32rem;
+        line-height: 1;
+        margin: .19rem 0 .1rem;
+        color: #fff
+      }
+
+      span {
+        font-size: 12px;
+        font-weight: 300;
+        color: #fff;
+
+        span {
+          vertical-align: middle;
+
+          &:first-child {
+            font-size: 12px;
+            margin-right: 8px
+          }
+        }
+      }
+    }
+  }
+
+  &__right {
+    display: inline-block;
+    width: 4.9rem;
+    height: 100%;
+    vertical-align: middle;
+    position: relative
+  }
+
+  .warning {
+    color: red
+  }
+
+  .success {
+    color: #00ff12
+  }
+}

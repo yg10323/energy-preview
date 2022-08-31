@@ -19,12 +19,10 @@ const Overview = () => {
 
   const { EnergyDosageSummary } = overViewData
 
-  console.log('EnergyDosageSummary', EnergyDosageSummary)
-
   return (
     <div className="overview">
       <div style={{ width: '100%', height: '1.02rem' }}>
-        <Carousel autoplay autoplaySpeed={3200} dots={false} dotPosition='left'>
+        <Carousel autoplay autoplaySpeed={3000} dots={false} dotPosition='left'>
           {
             overViewData.topDatas?.map((item: any, index: number) => {
               return (
@@ -49,7 +47,7 @@ const Overview = () => {
           }
         </Carousel>
       </div>
-      <div className="overview-scroll">
+      <div className='overview-scroll' style={{ width: '100%', height: '3.34rem' }}>
         <Carousel autoplay autoplaySpeed={3200} dots={false} dotPosition='left'>
           {
             EnergyDosageSummary?.map((item: any, index: number) => {
@@ -57,7 +55,7 @@ const Overview = () => {
                 <div className="overview-section" key={index}>
                   <div className="overview-section__title">
                     <span>{item.Title}</span>
-                    <span>{`日用${item.Name}量：${item.DayEnergyDosage}`}</span>
+                    <span>{`日用${item.Name}量：${item.DayEnergyDosage}`}{item.Unit}</span>
                   </div>
                   <div className="overview-section__content">
                     <div className="overview-section__content--left">

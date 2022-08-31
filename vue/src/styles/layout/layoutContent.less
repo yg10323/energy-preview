@@ -1,0 +1,29 @@
+@layoutContent: layout-content;
+
+.@{layoutContent} {
+  position: relative;
+  background-color: rgba(4, 19, 97, 0.3);
+  border: 2px solid rgba(5, 62, 161, 0.3);
+  border-top: 2px solid #094dc1;
+
+  &__title {
+    text-align: left;
+    color: #ffffff;
+  }
+
+  &__corner {
+
+    .corner-img {
+      position: absolute;
+      width: .21rem;
+      height: .21rem
+    }
+
+    .bottom-left {
+      left: -2px;
+      bottom: 0;
+      transform: rotateZ(90deg);
+    }
+
+  }
+}
