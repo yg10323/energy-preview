@@ -389,7 +389,7 @@
   "baseConfig": {
     "IsSuccessful": true,
     "Data": {
-      "Title": "奥普拓智慧能源管理平台"
+      "Title": "智慧能源管理平台"
     },
     "TotalCount": 0,
     "MessageType": 0
@@ -1909,16 +1909,16 @@
     "IsSuccessful": true,
     "Data": {
       "Cons": {
-        "MonthEnergyConsu": 693239.71548,
-        "YearOnYearConsu": 2399462.05,
-        "MonthOnMonthConsu": 298859.55,
+        "MonthEnergy": 693239.71548,
+        "YearOnYear": 2399462.05,
+        "MonthOnMonth": 298859.55,
         "Title": "月总能耗",
         "Unit": "tce"
       },
       "Carbon": {
-        "MonthCarbon": 4830.5664,
-        "YearOnYearCarbon": 100,
-        "MonthOnMonthCarbon": 3.56,
+        "MonthEnergy": 4830.5664,
+        "YearOnYear": 100,
+        "MonthOnMonth": 3.56,
         "Title": "月总碳排放",
         "Unit": "tCO2e"
       },
@@ -1928,7 +1928,6 @@
           "Name": "电",
           "Code": "Electric",
           "Unit": "万KWh",
-          "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060416516408.png",
           "MonthEnergyDosage": 117.372,
           "DayEnergyDosage": 11160,
           "MonthEnergyConsu": 693205.76338,
@@ -1941,7 +1940,6 @@
           "Name": "水",
           "Code": "Water",
           "Unit": "万t",
-          "Img": "http://demo.optiems.com:11067",
           "MonthEnergyDosage": 48.83039,
           "DayEnergyDosage": 7186.49985,
           "MonthEnergyConsu": 32.60348,
@@ -1954,7 +1952,6 @@
           "Name": "气",
           "Code": "Gas",
           "Unit": "m3",
-          "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060532656718.png",
           "MonthEnergyDosage": 1014,
           "DayEnergyDosage": 0,
           "MonthEnergyConsu": 1.34862,

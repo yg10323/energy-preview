@@ -18,11 +18,11 @@ const LayoutContent = (props: Props) => {
     <div className='layout-content' style={style}>
       <div className="layout-content__title">{title}</div>
       <div className="layout-content__main">{props.children}</div>
-      <div className={`layout-content__corner ${cornerPosition}`}>
+      <div className="layout-content__corner" >
         {
           cornerVisible && (
             <img
-              className={`corner-img`}
+              className={`corner-img ${cornerPosition}`}
               src={require('../assets/corner.png')}
               alt="" />
           )
