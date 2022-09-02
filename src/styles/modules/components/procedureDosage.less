@@ -1,0 +1,73 @@
+@dosage: procedureDosage;
+
+.@{dosage} {
+  width: 100%;
+  padding: .2rem .16rem .34rem .11rem;
+
+  .td,
+  .th {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .td .row,
+  .th .row {
+    float: left;
+    text-align: center;
+    font-size: .16rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+
+    .ant-progress-text {
+      color: #fff
+    }
+  }
+
+  .th {
+    color: #00a0e9;
+    background-color: #001c58;
+
+    .row {
+      height: .33rem;
+      line-height: .33rem;
+    }
+  }
+
+  .td {
+    height: .42rem;
+    color: #fff;
+
+    background-color: #001c58;
+
+    .odd {
+      background-color: rgba(4, 10, 57, .46);
+    }
+
+    .row {
+      height: .42rem;
+      line-height: .42rem;
+
+      &:nth-child(1) {
+        width: 10%;
+      }
+
+      &:nth-child(2) {
+        width: 30%
+      }
+
+      &:nth-child(3) {
+        width: 25%;
+      }
+
+      &:nth-child(4) {
+        width: 23%;
+      }
+
+      &:nth-child(5) {
+        width: 10%;
+      }
+    }
+  }
+}

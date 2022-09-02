@@ -20,23 +20,23 @@ const Overview = () => {
   const { EnergyDosageSummary } = overViewData
 
   return (
-    <div className="overview">
+    <div className='overview'>
       <div style={{ width: '100%', height: '1.02rem' }}>
         <Carousel autoplay autoplaySpeed={3000} dots={false} dotPosition='left'>
           {
             overViewData.topDatas?.map((item: any, index: number) => {
               return (
-                <div className="overview-section" key={index}>
-                  <div className="overview-section__title">
+                <div className='overview-section' key={index}>
+                  <div className='overview-section__title'>
                     <span>{item.Title}</span>
                     <span>{`日累计量：${item.DayCarbon || 0} ${item.Unit}`}</span>
                   </div>
-                  <div className="overview-section__content">
-                    <div className="overview-section__content--left">
+                  <div className='overview-section__content'>
+                    <div className='overview-section__content--left'>
                       <span className='total'>{item.MonthEnergy}</span>
                       <span className='unit'>{item.Unit}</span>
                     </div>
-                    <div className="overview-section__content--right">
+                    <div className='overview-section__content--right'>
                       <TongHuanBi title='月同比' value={item.YearOnYear} />
                       <TongHuanBi title='月环比' value={item.MonthOnMonth} />
                     </div>
@@ -52,17 +52,17 @@ const Overview = () => {
           {
             EnergyDosageSummary?.map((item: any, index: number) => {
               return (
-                <div className="overview-section" key={index}>
-                  <div className="overview-section__title">
+                <div className='overview-section' key={index}>
+                  <div className='overview-section__title'>
                     <span>{item.Title}</span>
                     <span>{`日用${item.Name}量：${item.DayEnergyDosage}`}{item.Unit}</span>
                   </div>
-                  <div className="overview-section__content">
-                    <div className="overview-section__content--left">
+                  <div className='overview-section__content'>
+                    <div className='overview-section__content--left'>
                       <span className='total'>{item.MonthEnergyDosage}</span>
                       <span className='unit'>{item.Unit}</span>
                     </div>
-                    <div className="overview-section__content--right">
+                    <div className='overview-section__content--right'>
                       <TongHuanBi title='月同比' value={item.YearOnYearDosage} />
                       <TongHuanBi title='月环比' value={item.MonthOnMonthDosage} />
                     </div>

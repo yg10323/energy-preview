@@ -7,8 +7,24 @@
   border-top: 2px solid #094dc1;
 
   &__title {
+    position: relative;
+    margin-top: .18rem;
+    padding-left: .3rem;
+    font-size: .18rem;
+    color: #fff;
+    line-height: 1;
     text-align: left;
-    color: #ffffff;
+
+    &:before {
+      content: "";
+      width: .15rem;
+      height: .15rem;
+      position: absolute;
+      top: .015rem;
+      left: .1rem;
+      background: url('../../assets/title-icon.png') 50% no-repeat;
+      background-size: contain;
+    }
   }
 
   &__corner {
@@ -19,11 +35,27 @@
       height: .21rem
     }
 
+    .top-left {
+      top: -2px;
+      left: 0;
+      transform: rotateZ(180deg);
+    }
+
+    .top-right {
+      top: -2px;
+      right: 0;
+      transform: rotateZ(270deg);
+    }
+
     .bottom-left {
       left: -2px;
       bottom: 0;
       transform: rotateZ(90deg);
     }
 
+    .bottom-right {
+      right: -2px;
+      bottom: 0;
+    }
   }
 }
