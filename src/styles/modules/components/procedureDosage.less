@@ -4,6 +4,12 @@
   width: 100%;
   padding: .2rem .16rem .34rem .11rem;
 
+  .scroll {
+    .slick-list {
+      height: 4.16rem !important;
+    }
+  }
+
   .td,
   .th {
     width: 100%;
@@ -26,7 +32,7 @@
   }
 
   .th {
-    color: #00a0e9;
+    color: #00a0e9 !important;
     background-color: #001c58;
 
     .row {
@@ -35,15 +41,17 @@
     }
   }
 
+  .odd {
+    background-color: rgba(4, 10, 57, .46) !important;
+  }
+
   .td {
     height: .42rem;
     color: #fff;
 
     background-color: #001c58;
 
-    .odd {
-      background-color: rgba(4, 10, 57, .46);
-    }
+
 
     .row {
       height: .42rem;
@@ -62,11 +70,11 @@
       }
 
       &:nth-child(4) {
-        width: 23%;
+        width: 20%;
       }
 
       &:nth-child(5) {
-        width: 10%;
+        width: 13%;
       }
     }
   }

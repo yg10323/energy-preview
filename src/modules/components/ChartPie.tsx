@@ -112,7 +112,7 @@ const ChartPie = (props: Props) => {
         dataIndex: counter.current
       })
       counter.current++
-      if (counter.current > props.chartData.Data.length) {
+      if (counter.current > props.chartData?.Data?.length) {
         counter.current = 0
       }
     }, 2000)
