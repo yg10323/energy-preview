@@ -1,5 +1,3 @@
-import React from 'react'
-
 import 'src/styles/layout/layoutContent.less'
 
 type Props = {
@@ -14,7 +12,7 @@ const LayoutContent = (props: Props) => {
   const { title, cornerVisible, cornerPosition, style } = props
   return (
     <div className='layout-content' style={style}>
-      <div className="layout-content__title">{title}</div>
+      {title && <div className="layout-content__title">{title}</div>}
       <div className="layout-content__main">{props.children}</div>
       <div className="layout-content__corner" >
         {

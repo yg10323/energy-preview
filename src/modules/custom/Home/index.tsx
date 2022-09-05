@@ -34,12 +34,14 @@ const Home = () => {
         </div>
         <LayoutContent
           title='24小时实时用能监测'
+          cornerVisible={false}
           style={{ width: '8.51rem', height: '4.65rem', marginTop: '0.13rem' }}
         >
 
         </LayoutContent>
         <LayoutContent
           title='月统计峰谷平用电监测'
+          cornerVisible={false}
           style={{ width: '8.51rem', height: '4.65rem', marginTop: '0.2rem' }}
         >
 
@@ -55,6 +57,7 @@ const Home = () => {
         </LayoutContent>
         <LayoutContent
           title='本月排行'
+          cornerPosition='bottom-right'
           style={{ width: '4.9rem', height: '5.44rem', marginTop: '0.2rem' }}
         >
           <ProcedureDosage />
