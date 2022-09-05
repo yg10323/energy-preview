@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { LayoutContent } from 'src/layout'
-import { Overview, ProcedureEngery, ProcedureDosage } from './components'
+import { Overview, ProcedureEngery, ProcedureDosage, Instrument } from './components'
 import { $api } from 'src/plugins'
 import 'src/styles/modules/home/index.less'
 
@@ -18,13 +18,13 @@ const Home = () => {
         <LayoutContent
           style={{ width: '4.9rem', height: '4.36rem', marginTop: '0.36rem' }}
         >
-          {/* <Overview /> */}
+          <Overview />
         </LayoutContent>
         <LayoutContent
           title='器具监测'
           style={{ width: '4.9rem', height: '5.44rem', marginTop: '0.2rem' }}
         >
-
+          <Instrument />
         </LayoutContent>
       </div>
       <div className="route-home__center">
@@ -51,7 +51,7 @@ const Home = () => {
           cornerPosition='bottom-right'
           style={{ width: '4.9rem', height: '4.36rem', marginTop: '0.36rem' }}
         >
-          {/* <ProcedureEngery /> */}
+          <ProcedureEngery />
         </LayoutContent>
         <LayoutContent
           title='本月排行'
