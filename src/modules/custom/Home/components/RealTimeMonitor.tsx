@@ -3,7 +3,7 @@ import { ChartLine } from 'src/modules/components'
 import { $api } from 'src/plugins'
 
 const RealTimeMonitor = () => {
-  const [localState, setLocalState] = useState<any>({})
+  const [localState, setLocalState] = useState<any>([])
   useEffect(() => {
     $api['getEnergyMonitor']().then((res: any) => {
       res && res.length && setLocalState(res)
