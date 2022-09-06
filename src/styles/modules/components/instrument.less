@@ -58,14 +58,14 @@
             color: #fff;
             line-height: 1;
             top: .06rem;
-          }
 
-          span:first-child {
-            left: .09rem;
-          }
+            &:first-child {
+              left: .09rem;
+            }
 
-          span:last-child {
-            left: 1.59rem;
+            &:last-child {
+              left: 1.59rem;
+            }
           }
 
           i {
@@ -78,6 +78,69 @@
           }
         }
       }
+    }
+  }
+
+  &-table {
+    width: 100%;
+    padding: 0 .13rem;
+    margin-top: -4.55rem;
+
+    &__title {
+      position: relative;
+      margin-top: .18rem;
+      padding-left: .2rem;
+      font-size: .18rem;
+      color: #fff;
+      line-height: 1;
+      text-align: left;
+
+      &:before {
+        content: "";
+        width: .15rem;
+        height: .15rem;
+        position: absolute;
+        top: .015rem;
+        left: 0rem;
+        background: url('../../../assets/title-icon.png') 50% no-repeat;
+        background-size: contain;
+      }
+    }
+
+    .th {
+      margin-top: .1rem;
+      color: #06f;
+      background-color: #021f60;
+    }
+
+    .td {
+      color: #fff;
+      background-color: #001c58;
+
+      &.odd {
+        background-color: rgba(0, 46, 115, .14);
+      }
+    }
+
+    .th,
+    .td {
+      width: 100%;
+      overflow: hidden
+    }
+
+    .th .row,
+    .td .row {
+      float: left;
+      width: 33.33%;
+      height: .4rem;
+      padding: 0 4px;
+      line-height: .4rem;
+      text-align: center;
+      font-size: .14rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer
     }
   }
 }
