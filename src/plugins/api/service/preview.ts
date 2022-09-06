@@ -29,7 +29,7 @@ const preview = [
     method: 'GET',
     params: {},
     axiosOptions: {},
-    desc: '能源监测'
+    desc: '实时监测'
   },
   {
     name: 'getMonthData',

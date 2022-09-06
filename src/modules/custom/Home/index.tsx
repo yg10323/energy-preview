@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { LayoutContent } from 'src/layout'
-import { Overview, ProcedureEngery, ProcedureDosage, Instrument } from './components'
+import { Overview, ProcedureEngery, ProcedureDosage, Instrument, RealTimeMonitor } from './components'
 import { $api } from 'src/plugins'
 import 'src/styles/modules/home/index.less'
 
@@ -37,7 +37,7 @@ const Home = () => {
           cornerVisible={false}
           style={{ width: '8.51rem', height: '4.65rem', marginTop: '0.13rem' }}
         >
-
+          <RealTimeMonitor />
         </LayoutContent>
         <LayoutContent
           title='月统计峰谷平用电监测'
