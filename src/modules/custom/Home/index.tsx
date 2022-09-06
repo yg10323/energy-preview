@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { LayoutContent } from 'src/layout'
 import { Overview, ProcedureEngery, ProcedureDosage, Instrument, RealTimeMonitor } from './components'
+import { NowTime } from 'src/modules/components'
 import { $api } from 'src/plugins'
 import 'src/styles/modules/home/index.less'
 
@@ -30,7 +31,7 @@ const Home = () => {
       <div className="route-home__center">
         <div className="route-home__center--title">
           <p>{baseConfig?.Title}</p>
-          <span></span>
+          <span><NowTime /></span>
         </div>
         <LayoutContent
           title='24小时实时用能监测'

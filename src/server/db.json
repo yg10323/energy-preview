@@ -73,6 +73,20 @@
         "Total": 6,
         "Online": 6,
         "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060532656718.png"
+      },
+      {
+        "Name": "电",
+        "Code": "Electric",
+        "Total": 55,
+        "Online": 29,
+        "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060416516408.png"
+      },
+      {
+        "Name": "气",
+        "Code": "Gas",
+        "Total": 6,
+        "Online": 6,
+        "Img": "http://demo.optiems.com:11067/2021/202111/20211109/211109060532656718.png"
       }
     ],
     "TotalCount": 0,

@@ -48,7 +48,11 @@ const Instrument = () => {
                           <div className="instrument-wrap__section--zone">
                             <div className="instrument-wrap__section--zone-title">{`${item.Name}-器具`}</div>
                             <div className="instrument-wrap__section--zone-detail">
-                              <span>{`在线数：${item.Online}`}<i />{`总数：${item.Total}`}</span>
+                              <span>
+                                <span>{`在线数：${item.Online}`}</span>
+                                <i />
+                                <span>{`总数：${item.Total}`}</span>
+                              </span>
                             </div>
                           </div>
                         </div>
