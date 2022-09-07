@@ -1,6 +1,14 @@
 import type { CSSProperties } from 'react'
 import { useMemo } from 'react'
-import ReactECharts from 'echarts-for-react';
+import ReactECharts from 'echarts-for-react'
+import moment from 'moment'
+
+const presetColors: string[] = [
+  '133,84,158',
+  '0,183,238',
+  '50,177,108',
+  '250,140,22'
+]
 
 type Props = {
   chartData: any,
@@ -8,82 +16,163 @@ type Props = {
 }
 
 const ChartLine = (props: Props) => {
-
-
   const chartOption = useMemo(() => {
     const { chartData = [] } = props
-    const seriesData = chartData.map((item: any) => item.EnergyList)
-
-    const legend = {
-      data: chartData?.map((item: any) => `${item.Name}(${item.Unit})`)
-    }
-
-    const series = seriesData.map((option: any[]) => {
-      return {
-        type: 'line',
-        data: option.map((item: any) => {
-          return item.Value
-        })
-      }
-    })
 
     const option = {
-      legend,
-      xAxis: {
-        type: 'category',
-        data: chartData[0]?.EnergyList?.map((item: any) => item.Time),
-        axisLabel: {
-          color: '#fff',
-          formatter: (value: string) => {
-            const label = value.split(' ')
-            return `${label[0]}\n${label[1]}`
+      legend: {
+        top: '8%',
+        itemWidth: 16,
+        itemHeight: 10,
+        icon: 'roundRect',
+        textStyle: {
+          color: '#ffffff',
+          fontSize: 14
+        },
+        data: chartData?.map((item: any) => `${item.Name}(${item.Unit})`) || []
+      },
+      grid: {
+        top: '16%',
+        right: '4%',
+        bottom: '16%',
+        left: '4%',
+        containLabel: false
+      },
+      tooltip: {
+        trigger: 'axis',
+        textStyle: {
+          align: 'left'
+        },
+        axisPointer: {
+          lineStyle: {
+            color: {
+              type: 'linear',
+              x: 0,
+              y: 0,
+              x2: 0,
+              y2: 1,
+              colorStops: [
+                {
+                  offset: 0,
+                  color: 'rgba(255, 255, 255, 0)'
+                },
+                {
+                  offset: 0.34,
+                  color: 'rgba(255, 255, 255, 0.78)'
+                }
+                ,
+                {
+                  offset: 0.53,
+                  color: 'rgba(255, 255, 255, 0.84)'
+                }
+                ,
+                {
+                  offset: 1,
+                  color: 'rgba(218, 218, 218, 0)'
+                }
+              ],
+              global: false
+            }
           }
         }
       },
-      yAxis: [
-        {
-          type: 'value',
-          min: 0,
-          max: 4000,
-          position: 'left',
-          axisLabel: {
-            formatter: '{value}'
+      xAxis: {
+        type: 'category',
+        axisLine: {
+          lineStyle: {
+            color: '#A0A0A0'
           }
         },
-        {
-          type: 'value',
-          min: 0,
-          max: 250,
-          position: 'right',
-          axisLabel: {
-            formatter: '{value}'
+        axisLabel: {
+          color: '#fff',
+          fontSize: 11,
+          formatter: (value: string) => {
+            const md = moment(value).format('MM-DD')
+            const hm = moment(value).format('HH:mm')
+            return [md, hm].join('\n')
           }
         },
-        // {
-        //   type: 'value',
-        //   name: '温度',
-        //   min: 0,
-        //   max: 25,
-        //   position: 'right',
-        //   axisLabel: {
-        //     formatter: '{value} °C'
-        //   }
-        // }
-      ],
-      series
+        boundaryGap: false,
+        data: chartData[0]?.EnergyList?.map((item: any) => item.Time),
+      },
+      yAxis: chartData?.map((item: any, index: number) => {
+        const color = presetColors[index % presetColors.length]
+        return {
+          type: 'value',
+          splitLine: {
+            show: index === 0,
+            lineStyle: {
+              color: 'rgba(0, 53, 103, 1)'
+            }
+          },
+          axisLabel: {
+            inside: true,
+            color: `rgba(${color}, 1)`,
+            verticalAlign: 'bottom'
+          },
+          axisTick: {
+            show: false
+          },
+          position: index === 0 ? 'left' : 'right',
+          offset: index === 0 ? 0 : -(chartData.length - index - 1) * 50
+        }
+      }),
+      series: chartData?.map((item: any, index: number) => {
+        const Name = `${item.Name}(${item.Unit})`
+        const Color = presetColors[index % presetColors.length]
+        const Data = item.EnergyList.map((item: any) => item.Value)
+        return {
+          type: 'line',
+          name: Name,
+          yAxisIndex: index,
+          symbol: 'circle',
+          symbolSize: 4,
+          showAllSymbol: true,
+          label: {
+            color: '#fff'
+          },
+          lineStyle: {
+            color: `rgba(${Color},1)`
+          },
+          itemStyle: {
+            width: 2,
+            color: `rgba(${Color},1)`
+          },
+          areaStyle: {
+            color: {
+              type: 'linear',
+              x: 0,
+              y: 0,
+              x2: 0,
+              y2: 1,
+              colorStops: [
+                {
+                  offset: 0,
+                  color: `rgba(${Color}, 0.6)`
+                },
+                {
+                  offset: 1,
+                  color: `rgba(${Color}, 0)`
+                }
+              ],
+              global: false
+            }
+          },
+          data: Data
+        }
+      })
     }
-    console.log('series', series);
 
     return option
   }, [props.chartData])
 
   return (
-    <div className='chart-line'>
+    <div className='chart-line' style={{ width: '100%', height: '100%' }}>
       <ReactECharts
         notMerge
         lazyUpdate
         option={chartOption}
-      // style={{ width: '100%', height: '100%', ...props.style }}
+        style={{ width: '100%', height: '100%', ...props.style }}
       />
     </div>
   )
