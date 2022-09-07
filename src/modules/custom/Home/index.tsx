@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { LayoutContent } from 'src/layout'
-import { Overview, ProcedureEngery, ProcedureDosage, Instrument, RealTimeMonitor } from './components'
+import { Overview, ProcedureEngery, ProcedureDosage, Instrument, RealTimeMonitor, MonthMonitor } from './components'
 import { NowTime } from 'src/modules/components'
 import { $api } from 'src/plugins'
 import 'src/styles/modules/home/index.less'
@@ -45,19 +45,19 @@ const Home = () => {
           cornerVisible={false}
           style={{ width: '8.51rem', height: '4.65rem', marginTop: '0.2rem' }}
         >
-
+          <MonthMonitor />
         </LayoutContent>
       </div>
       <div className="route-home__right">
         <LayoutContent
-          title='本月排行'
+          title='节点能耗本月排行'
           cornerPosition='bottom-right'
           style={{ width: '4.9rem', height: '4.36rem', marginTop: '0.36rem' }}
         >
           <ProcedureEngery />
         </LayoutContent>
         <LayoutContent
-          title='本月排行'
+          title='节点用电量本月排行'
           cornerPosition='bottom-right'
           style={{ width: '4.9rem', height: '5.44rem', marginTop: '0.2rem' }}
         >

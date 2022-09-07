@@ -1,5 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import type { CSSProperties } from 'react'
-import { useMemo } from 'react'
+import type { ECharts } from 'echarts'
+import { useMemo, useRef, useEffect } from 'react'
 import ReactECharts from 'echarts-for-react'
 import moment from 'moment'
 
@@ -12,10 +14,53 @@ const presetColors: string[] = [
 
 type Props = {
   chartData: any,
+  autoPlay?: boolean,
+  onChartReady?: Function,
   style?: CSSProperties
 }
 
 const ChartLine = (props: Props) => {
+  const timer = useRef<any>()
+  const counter = useRef<number>(0)
+  const chartRef = useRef<ECharts>()
+  const handleChartReady = (chartInstance: any) => {
+    chartRef.current = chartInstance
+    props.onChartReady?.(chartInstance)
+  }
+
+  useEffect(() => {
+    props.autoPlay && props.chartData && handleStart()
+  }, [props.autoPlay, props.chartData])
+
+  const handleStart = () => {
+    timer.current = setInterval(() => {
+      chartRef.current?.dispatchAction({
+        type: 'downplay'
+      })
+      chartRef.current?.dispatchAction({
+        type: 'highlight',
+        seriesIndex: 1,
+        dataIndex: counter.current
+      })
+      chartRef.current?.dispatchAction({
+        type: 'showTip',
+        seriesIndex: 1,
+        dataIndex: counter.current
+      })
+      counter.current++
+      if (counter.current > props.chartData[0]?.EnergyList?.length) {
+        counter.current = 0
+      }
+    }, 2000)
+  }
+
+  const handleStop = () => {
+    clearInterval(timer.current)
+    chartRef.current?.dispatchAction({
+      type: 'downplay'
+    })
+  }
+
   const chartOption = useMemo(() => {
     const { chartData = [] } = props
 
@@ -167,15 +212,23 @@ const ChartLine = (props: Props) => {
   }, [props.chartData])
 
   return (
-    <div className='chart-line' style={{ width: '100%', height: '100%' }}>
+    <div className='chart-line'
+      onMouseEnter={handleStop}
+      onMouseLeave={handleStart}
+      style={{ width: '100%', height: '100%' }}>
       <ReactECharts
         notMerge
         lazyUpdate
         option={chartOption}
+        onChartReady={handleChartReady}
         style={{ width: '100%', height: '100%', ...props.style }}
       />
     </div>
   )
+}
+
+ChartLine.defaultProps = {
+  autoPlay: true
 }
 
 export default ChartLine

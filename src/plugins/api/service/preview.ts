@@ -40,6 +40,14 @@ const preview = [
     desc: '月信息'
   },
   {
+    name: 'getMonthData2',
+    path: '/monthData2',
+    method: 'GET',
+    params: {},
+    axiosOptions: {},
+    desc: '月信息2'
+  },
+  {
     name: 'getProcedureDosage',
     path: '/procedureDosage',
     method: 'GET',

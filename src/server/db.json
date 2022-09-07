@@ -1452,8 +1452,1018 @@
               }
             ]
           }
+        ]
+      }
+    },
+    "TotalCount": 0,
+    "MessageType": 0
+  },
+  "monthData2": {
+    "IsSuccessful": true,
+    "Data": {
+      "chartDataModel": {
+        "XAxis": [
+          {
+            "Data": [
+              "2022-09-01",
+              "2022-09-02",
+              "2022-09-03",
+              "2022-09-04",
+              "2022-09-05",
+              "2022-09-06",
+              "2022-09-07",
+              "2022-09-08",
+              "2022-09-09",
+              "2022-09-10",
+              "2022-09-11",
+              "2022-09-12",
+              "2022-09-13",
+              "2022-09-14",
+              "2022-09-15",
+              "2022-09-16",
+              "2022-09-17",
+              "2022-09-18",
+              "2022-09-19",
+              "2022-09-20",
+              "2022-09-21",
+              "2022-09-22",
+              "2022-09-23",
+              "2022-09-24",
+              "2022-09-25",
+              "2022-09-26",
+              "2022-09-27",
+              "2022-09-28",
+              "2022-09-29",
+              "2022-09-30"
+            ]
+          }
         ],
-        "Radar": []
+        "YAxis": [
+          {
+            "Name": "KWh",
+            "Max": 0,
+            "Min": 0,
+            "IsInverse": false
+          },
+          {
+            "Name": "%",
+            "Max": 100,
+            "Min": 0,
+            "IsInverse": false
+          }
+        ],
+        "Data": [
+          {
+            "Name": "尖峰",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 3840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 5640,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 3120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4440,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 4320,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "高峰",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 13800,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 27120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 10440,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 9600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20160,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 20760,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "平电",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 19200,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 21720,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 13080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12240,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 27840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 25680,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "谷电",
+            "ChartType": 1,
+            "YAxisIndex": 0,
+            "XAxisIndex": 0,
+            "Type": "bar",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 13080,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 14640,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 15120,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 11880,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 12840,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 15600,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 11520,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          },
+          {
+            "Name": "高峰占比",
+            "ChartType": 0,
+            "YAxisIndex": 1,
+            "XAxisIndex": 0,
+            "Type": "line",
+            "LegendSelected": true,
+            "Data": [
+              {
+                "Value": 27.64,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 39.24,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 25,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 26.06,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 30.88,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 31.28,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              },
+              {
+                "Value": 0,
+                "YAxisIndex": 0,
+                "Heads": [],
+                "Data": []
+              }
+            ]
+          }
+        ]
       }
     },
     "TotalCount": 0,

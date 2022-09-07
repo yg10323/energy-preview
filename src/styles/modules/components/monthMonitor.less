@@ -1,0 +1,36 @@
+@month: month-monitor;
+
+.@{month} {
+  width: 100%;
+
+  &__btns {
+    width: 100%;
+    text-align: right;
+    padding-right: .42rem;
+    margin-top: .13rem;
+
+    &--button {
+      display: inline-block;
+      height: .26rem;
+      padding: 0 .08rem;
+      border: 1px solid #1d98fc;
+      border-radius: .13rem;
+      font-size: .16rem;
+      color: #3e7af9;
+      vertical-align: middle;
+      margin-right: .12rem;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .gradient {
+    color: #050b3c;
+    border: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#6a52f5), to(#1d98fc));
+    background: linear-gradient(0deg, #6a52f5, #1d98fc);
+  }
+}
