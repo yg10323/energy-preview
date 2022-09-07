@@ -1,7 +1,7 @@
 const preview = [
   {
     name: 'getAlertInfo',
-    path: '/alertInfo',
+    path: '/getAlertInfo',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -9,7 +9,7 @@ const preview = [
   },
   {
     name: 'getApplicationInfo',
-    path: '/applicationInfo',
+    path: '/getApplicationInfo',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -17,7 +17,7 @@ const preview = [
   },
   {
     name: 'getBaseConfig',
-    path: '/baseConfig',
+    path: '/getBaseConfig',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -25,7 +25,7 @@ const preview = [
   },
   {
     name: 'getEnergyMonitor',
-    path: '/energyMonitor',
+    path: '/getEnergyMonitor',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -33,7 +33,7 @@ const preview = [
   },
   {
     name: 'getMonthData',
-    path: '/monthData',
+    path: '/getMonthData/0',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -41,7 +41,7 @@ const preview = [
   },
   {
     name: 'getMonthData2',
-    path: '/monthData2',
+    path: '/getMonthData/1',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -49,7 +49,7 @@ const preview = [
   },
   {
     name: 'getProcedureDosage',
-    path: '/procedureDosage',
+    path: '/getProcedureDosage',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -57,7 +57,7 @@ const preview = [
   },
   {
     name: 'getProcedureEngery',
-    path: '/procedureEngery',
+    path: '/getProcedureEngery',
     method: 'GET',
     params: {},
     axiosOptions: {},
@@ -65,7 +65,7 @@ const preview = [
   },
   {
     name: 'getSummaryInfo',
-    path: '/summaryInfo',
+    path: '/getSummaryInfo',
     method: 'GET',
     params: {},
     axiosOptions: {},

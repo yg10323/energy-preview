@@ -45,9 +45,10 @@ class MakeApi {
   }
 
   __build (config: any[]) {
-    const { sep, baseURL, debug } = this.options
+    const { sep, baseURL, debug, prefixPath } = this.options
     config.forEach((item: ConfigItem) => {
-      const { name: apiName, method, path: apiUrl } = item
+      const { name: apiName, method, path } = item
+      const apiUrl = prefixPath + path
 
       // api配置项容错判断, 发布时设置 debug为 false
       debug && assert(apiName, `${apiUrl}的name项不能为空`)
