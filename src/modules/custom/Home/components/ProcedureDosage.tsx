@@ -4,7 +4,6 @@ import { $api } from 'src/plugins'
 import { chunk, cloneDeep } from 'lodash'
 import 'src/styles/modules/components/procedureDosage.less'
 
-
 const strokeColor = [
   {
     from: '#090979',
@@ -93,7 +92,6 @@ const ProcedureDosage = () => {
         </Carousel>
       </div>
     </div>
-
   )
 }
 
